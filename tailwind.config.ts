@@ -8,11 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        wiggle: {
+          'from': { transform: 'translateX(-100%)' },
+          'to': { transform: 'translateX(80%)'}
+        }
       },
+      animation: {
+        wiggle: 'wiggle 5s linear infinite',
+      }
     },
   },
   plugins: [],
