@@ -10,7 +10,7 @@ const Faq = () => {
                 <Heading>Let us <Selection>help you.</Selection></Heading>
             </div>
             <div
-                className={"mt-[60px] flex flex-wrap lg:flex-nowrap justify-center lg:justify-between text-white mx-[5%] gap-x-8 "}>
+                className={"mt-[60px] flex flex-wrap lg:flex-nowrap justify-center lg:justify-between text-white mx-[5%] lg:max-w-[1200px] lg:mx-auto gap-x-8 "}>
                 <ul className={"flex flex-col h-fit"}>
                     {questionList.slice(0, questionList.length / 2 | 0).map((question, index) => (
                         <li key={index} className={" border-b-[1px] border-b-slate-300 max-w-[531px] min-h-[124px]"}>

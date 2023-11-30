@@ -31,7 +31,7 @@ const Capabilities = () => {
                     className={"absolute w-3/4 max-w-[650px] h-[450px] left-0 group"}
                 >
                     <Image src={img2} alt={""}
-                           className={"absolute inset-0 w-full h-full object-cover object-top duration-300"}/>
+                           className={"absolute inset-0 w-full h-full object-cover duration-300 object-left-top"}/>
                     <Image src={img1} alt={""}
                            className={"absolute inset-0 w-full h-full object-cover object-top opacity-100 group-hover:opacity-0 duration-500"}/>
                 </motion.div>
@@ -40,7 +40,7 @@ const Capabilities = () => {
                     className={"absolute w-4/5 max-w-[650px] h-[450px] right-0 group"}
                 >
                     <Image src={img4} alt={""}
-                           className={"absolute inset-0 w-full h-full object-cover object-top duration-300"}/>
+                           className={"absolute inset-0 w-full h-full object-cover object-right-top duration-300"}/>
                     <Image src={img3} alt={""}
                            className={"absolute inset-0 w-full h-full object-cover object-top opacity-100 group-hover:opacity-0 duration-500"}/>
                 </motion.div>
